@@ -1,0 +1,57 @@
+#box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-container header h1 {
+    font-size: 21px;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #ccc;
+}
+
+#box-container ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+#box-container ul li {
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box-container ul li + li {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+#box-container ul li .fileInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-container .upload {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    height: 80px;
+    cursor: pointer;
+}
